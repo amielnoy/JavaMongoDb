@@ -7,6 +7,8 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.MongoIterable;
 
+import java.time.LocalDateTime;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Mongo db operations!");
@@ -20,7 +22,7 @@ public class Main {
             System.out.println(name);
         }
 
-        System.out.println("\nAfter Creating Example DB\n");
+        System.out.println("\nAfter Creating Example DB\n"+ LocalDateTime.now()+"\n");
         try {
             String dbName="ExampleMongoDbCreated";
             mongoClient.dropDatabase("ExampleDb");
