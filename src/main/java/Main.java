@@ -1,5 +1,3 @@
-package org.example;
-
 import MongoDb.MongoBuilder;
 import MongoDb.MongoDbCreationOperations;
 import MongoDb.MongoQueryOperations;

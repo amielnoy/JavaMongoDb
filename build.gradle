@@ -15,9 +15,8 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.mongodb/mongodb-driver
     implementation 'org.mongodb:mongodb-driver:3.12.10'
-    //implementation 'org.mongodb:mongo-java-driver:2.12.3'
 }
 
 test {
-    useJUnitPlatform()
+    useTestNG()
 }
