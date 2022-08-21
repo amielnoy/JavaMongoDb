@@ -11,14 +11,21 @@ Shell Commands:
 
 show all mongo server databases:
 >>>show dbs
-> 
+
+Delete a db
+>>>delete ExampleDbCreated
+ 
 switch to specific db context 
 >>>use <dbname> 
 
 find all documents in collection:
 >>>db.StudentCollection.find({})
 
+find all documents in collection by field value:
+>>>db.StudentCollection.find({"city" : "Betel"})
+
 Mongo db hirarchy:
 DB
    collection1,collection2,..collectionN(per DB)
-                                        Document1,Document2,...DocumentN(Per Collection)       
+                                        Document1,Document2,...DocumentN(Per Collection) 
+

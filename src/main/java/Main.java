@@ -32,7 +32,7 @@ public class Main {
 
         System.out.println("\nAfter Creating Example DB\n"+ LocalDateTime.now()+"\n");
         try {
-            String dbName="ExampleMongoDbCreated";
+            String dbName="ExampleMongoDb";
             String collectionName="StudentCollection";
 
             mongoClient.dropDatabase(dbName);
