@@ -193,7 +193,30 @@ public class MongoQueryOperations {
         Document currDoc = findIterable.first();
         return currDoc;
     }
+    public static Document getMongoDocument(MongoClient mongoClient
+            ,String collectionName
+            ,String dbName
+            ,String cityToSearch){
+        MongoDatabase db = mongoClient.getDatabase(dbName);
+        MongoCollection<Document> currentCollection=db.getCollection(collectionName);
+        //Preparing a document
+        Document foundDocument=
+                (Document) currentCollection.find(eq("city",cityToSearch)).first();
+        return foundDocument;
+    }
 
+    public static Document getMongoDocument(MongoClient mongoClient
+            ,String collectionName
+            ,String dbName
+            ,String propertyToSearch
+            ,String valueToSearch){
+        MongoDatabase db = mongoClient.getDatabase(dbName);
+        MongoCollection<Document> currentCollection=db.getCollection(collectionName);
+        //Preparing a document
+        Document foundDocument=
+                (Document) currentCollection.find(eq(propertyToSearch,valueToSearch)).first();
+        return foundDocument;
+    }
 //    public void getMongoCollectionAndDeleteLast(String database
 //            , String colection
 //            , String filterName

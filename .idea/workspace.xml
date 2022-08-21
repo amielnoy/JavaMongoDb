@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4658911a-4c0a-4134-b162-33c044780104" name="Changes" comment="add time stamp to created db operations">
+    <list default="true" id="4658911a-4c0a-4134-b162-33c044780104" name="Changes" comment="finf student by name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDb/MongoDbCreationOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDb/MongoDbCreationOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDb/MongoQueryOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDb/MongoQueryOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL‎" />
       <updated>1661020473496</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="finf student by name">
+      <created>1661053856024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1661053856024</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,19 +196,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First working version" />
     <MESSAGE value="add time stamp to created db operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add time stamp to created db operations" />
+    <MESSAGE value="finf student by name" />
+    <option name="LAST_COMMIT_MESSAGE" value="finf student by name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>18</line>
+          <line>25</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>36</line>
+          <line>43</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -216,18 +224,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>50</line>
+          <line>53</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>79</line>
+          <line>82</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>68</line>
+          <line>71</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
